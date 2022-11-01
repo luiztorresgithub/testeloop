@@ -1,0 +1,33 @@
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 3em;
+    border-bottom: 2px solid #efecef;   
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6em;
+}
+
+.link_items {
+    display: flex;
+    list-style: none;
+}
+
+.link_items li {
+    margin-right: 3em;
+}
+
+.link_items a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
